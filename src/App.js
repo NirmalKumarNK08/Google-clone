@@ -5,19 +5,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Router>
         <Switch>
           <Route path="/search">
+            <h1>Hello there I am nk</h1>
           </Route>
-          <Route path="/home">
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
-
-        {/* Homepage with text-box or searchbox, buttons. */}
-        <Home />
-
-        {/* Homepage with text-box or searchbox, buttons. */}
       </Router>
     </div>
   );
