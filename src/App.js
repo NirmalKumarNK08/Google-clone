@@ -9,10 +9,8 @@ function App() {
       <Router>
         <Switch>
           <Route path="/search">
-            <h1>Hello</h1>
           </Route>
           <Route path="/home">
-            <h1>Here is what everything comes in.</h1>
           </Route>
         </Switch>
 
